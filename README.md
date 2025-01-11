@@ -30,7 +30,7 @@ This script converts a PDF document into MP3 audio files using Edge TTS and merg
 ### Command Format
 Run the script from the terminal using:
 ```bash
-python3 script_name.py <path_to_pdf> [options]
+python3 book2mp3.py <path_to_pdf> [options]
 ```
 
 ### Required Argument
@@ -47,12 +47,12 @@ python3 script_name.py <path_to_pdf> [options]
 
 ### Basic Usage
 ```bash
-python3 script_name.py example.pdf
+python3 book2mp3.py example.pdf
 ```
 
 ### Custom Output Folder and Voice
 ```bash
-python3 script_name.py example.pdf -o custom_output -v en-GB-RyanNeural
+python3 book2mp3.py example.pdf -o custom_output -v en-GB-RyanNeural
 ```
 
 ---
